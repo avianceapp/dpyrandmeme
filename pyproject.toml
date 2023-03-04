@@ -3,11 +3,11 @@ requires = ["flit"]
 build-backend = "flit.buildapi"
 
 [project]
-name =  "py-project-toml"
+name =  "dpyrandmeme"
 authors = [
-    {name = "Daniel Ciborowski", email = "dciborow@microsoft.com"},
+    {name = "aviance", email = "relations@aviance.app"},
 ]
-description = "Sample Python Project for creating a new Python Module"
+description = "Random memes fetched for use in discord.py bot commands."
 readme = "README.md"
 classifiers = [
     "Development Status :: 3 - Alpha",
@@ -31,6 +31,8 @@ test = [
     "black==22.1.0",
     "check-manifest==0.48",
     "flake8-bugbear==22.1.11",
+    "aiohttp===3.8.4",
+    "discord-py==2.2.2",
     "flake8-docstrings",
     "flake8-formatter_junit_xml",
     "flake8==4.0.1",
@@ -46,12 +48,12 @@ test = [
 ]
 
 [project.urls]
-Documentation = "https://github.com/microsoft/python-package-template/tree/main#readme"
-Source = "https://github.com/microsoft/python-package-template"
-Tracker = "https://github.com/microsoft/python-package-template/issues"
+Documentation = "NONE"
+Source = "https://github.com/avianceapp/dpyrandmeme"
+Tracker = "https://github.com/avianceapp/dpyrandmeme/issues"
 
 [tool.flit.module]
-name = "python_package"
+name = "dpyrandmeme"
 
 [tool.bandit]
 exclude_dirs = ["build","dist","tests","scripts"]
