@@ -30,7 +30,7 @@ test = [
     "bandit[toml]==1.7.4",
     "black==22.1.0",
     "check-manifest==0.48",
-    "flake8-bugbear==22.1.11",
+    "flake8-bugbear==23.2.13",
     "aiohttp===3.8.4",
     "discord-py==2.2.2",
     "flake8-docstrings",
