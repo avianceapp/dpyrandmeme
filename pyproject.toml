@@ -48,7 +48,7 @@ test = [
 ]
 
 [project.urls]
-Documentation = "NONE"
+Documentation = "https://github.com/avianceapp/dpyrandmeme"
 Source = "https://github.com/avianceapp/dpyrandmeme"
 Tracker = "https://github.com/avianceapp/dpyrandmeme/issues"
 
