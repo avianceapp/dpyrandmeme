@@ -9,5 +9,5 @@ https://pypi.org/project/dpyrandmeme/
 
 **Credits:**
 
-d33pak123: https://github.com/d33pak123/Pyrandmeme-python-library
-Microsoft for the template
+d33pak123: https://github.com/d33pak123/Pyrandmeme-python-library, <br>
+and Microsoft for the template
