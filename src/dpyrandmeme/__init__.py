@@ -3,7 +3,13 @@
 #   Licensed under the MIT License. See LICENSE in project root for information.
 #   -------------------------------------------------------------
 """
-File for fetching and setting the Python Random Meme as an embed.
+    dpyrandmeme: discord.py-random-meme
+
+    Random memes to be used in discord.py
+
+    Copyright (c) aviance. All rights reserved.
+    Licensed under the MIT License. See LICENSE in project root for information.
+    File for fetching and setting the Python Random Meme as an embed.
 """
 
 from __future__ import annotations
@@ -16,6 +22,13 @@ __version__ = "0.0.3"
 
 
 async def pyrandmeme():
+    """
+        Get a random meme from a random subreddit and return it inside of an discord embed.
+        Usage: pyrandmeme(hex_color)
+        Remember to strip the # at the start, or it won't work.
+    """
+
+
     lists_for_memes = ['https://www.reddit.com/r/GoCommitDie/rising.json?sort=rising',
                        'https://www.reddit.com/r/okbuddyretard/top.json?sort=top', 
                        'https://www.reddit.com/r/memes/rising.json?sort=rising', 
